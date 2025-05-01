@@ -37,4 +37,4 @@ A modern Vue 3 boilerplate for trading applications or dashboards, featuring Pri
 1. **Clone the repository**
    ```bash
    git clone [your-repo-url]
-   cd my-vue-boilerplate
+   cd my-vue-boilerplate 
