@@ -8,6 +8,7 @@ A modern Vue 3 boilerplate for trading applications or dashboards, featuring Pri
 - 🚀 **Vite** - Next-gen frontend tooling
 - 🏪 **Pinia** - Simple and powerful state management
 - � **PrimeVue** - UI component library with themes
+- 📡 **Axios** - Promise-based HTTP client
 - 📱 **PrimeFlex** - CSS utility classes
 - 🖥️ **Vue DevTools** - Built-in debugging support
 - 📦 **TypeScript** - Type-safe development
@@ -19,6 +20,7 @@ A modern Vue 3 boilerplate for trading applications or dashboards, featuring Pri
 - `vue@3` - Progressive JavaScript framework
 - `vue-router@4` - Official routing library
 - `pinia@3` - State management solution
+- `axios` - HTTP client for API requests
 
 ### UI
 - `primevue@4` - UI component library
