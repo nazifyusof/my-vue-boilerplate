@@ -1,3 +1,16 @@
+<template>
+  <div class="layout-wrapper" :class="containerClass">
+    <app-topbar></app-topbar>
+    <div class="layout-main-container">
+      <div class="layout-main">
+        <router-view></router-view>
+      </div>
+    </div>
+    <app-footer></app-footer>
+    <div class="layout-mask animate-fadein"></div>
+  </div>
+</template>
+
 <script setup>
 import { useLayout } from '@/layout/composables/layout'
 import { computed, ref, watch } from 'vue'
@@ -60,15 +73,8 @@ function isOutsideClicked(event) {
 }
 </script>
 
-<template>
-  <div class="layout-wrapper" :class="containerClass">
-    <app-topbar></app-topbar>
-    <div class="layout-main-container">
-      <div class="layout-main">
-        <router-view></router-view>
-      </div>
-      <app-footer></app-footer>
-    </div>
-    <div class="layout-mask animate-fadein"></div>
-  </div>
-</template>
+<style>
+.layout-main-container{
+  padding-top: 2rem;
+}
+</style>

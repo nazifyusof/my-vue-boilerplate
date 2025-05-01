@@ -23,6 +23,11 @@ const router = useRouter()
 
 <style scoped>
 .topbar-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   border: none;
   background-color: transparent;
 }
